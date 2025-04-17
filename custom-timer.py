@@ -56,7 +56,7 @@ class CustomTimer:
             if self.current_sound and self.sound_playing:
                 self.current_sound.stop()
                 self.sound_playing = False
-            default_sound = pygame.mixer.Sound("/Users/maxhekman/VSCode_Projects/japanese_high_school (online-audio-converter.com).wav")
+            default_sound = pygame.mixer.Sound("japanese_high_school (online-audio-converter.com).wav")
             self.current_sound = default_sound
             self.current_sound.play()
             self.sound_playing = True
